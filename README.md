@@ -34,7 +34,7 @@ Primero creamos un usuario con plan gratuito en Docker Hub usando nuestro usuari
 
 Para etiquetar nuestra imagen con el repositorio recién creado usamos el siguiente comando:
 
-$ docker tag myubuntu:22.04 jasdacoss/cliente_ubuntu:22.04
+$ docker tag myubuntu:22.04 tania1985/cliente_ubuntu:22.04
 
 No podemos continuar sin antes ejecutar:
 
@@ -42,7 +42,7 @@ $ docker login
 
 Y subimos en el anterior repositorio la imagen creada con el siguinte comando:
 
-$ docker image push jasdacoss/cliente_ubuntu:22.04
+$ docker image push tania1985/cliente_ubuntu:22.04
 
 Ahora podemos probar la imagen ejecutando los contenedores:
 
